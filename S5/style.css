@@ -1,0 +1,82 @@
+/* tag selector */
+
+
+/* h1 {
+    color: salmon;
+    background-color: blueviolet;
+} */
+
+
+/* id selector */
+
+
+/* #second {
+    color: red;
+}
+/* class selector */
+
+
+/* .paragraph {
+    background-color: black;
+    color: #fff;
+} */
+
+
+/* grouping selector */
+
+
+/* p,
+h1 {
+    background-color: black;
+    color: red;
+} */
+
+
+/* #first,
+#second,
+#third,
+h1 {
+    font-size: 40px;
+} */
+
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+
+/* universal selector */
+
+
+/* * {
+    margin: 0;
+    background-color: rebeccapurple;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    background-color: red;
+} */
+
+#first {
+    width: 50px;
+    height: 60px;
+    background-color: rgba(255, 100, 14, 0.9);
+    margin-bottom: 10px;
+}
+
+#second {
+    width: 50px;
+    height: 60px;
+    background-color: rgba(255, 100, 14, 0.1);
+}
