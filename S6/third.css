@@ -1,0 +1,10 @@
+.block {
+    background-color: salmon;
+    display: inline;
+}
+
+.inline {
+    background-color: sandybrown;
+    display: block;
+    margin: 10px 0;
+}
