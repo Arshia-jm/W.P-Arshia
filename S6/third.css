@@ -1,4 +1,4 @@
-.block {
+    /* .block {
     background-color: salmon;
     display: inline;
 }
@@ -7,4 +7,38 @@
     background-color: sandybrown;
     display: block;
     margin: 10px 0;
-}
+} */
+    
+    div {
+        background-color: steelblue;
+        padding: 10px;
+    }
+    
+    #first {
+        background-color: tan;
+        /* position: relative;
+        top: 50px;
+        right: -30px;
+        left: 30px; */
+        /* position: sticky;
+        top: 10px; */
+    }
+    
+    #second {
+        background-color: sienna;
+    }
+    
+    span {
+        background-color: silver;
+        /* position: absolute;
+        top: 0;
+        left: 0; */
+    }
+    
+    h1 {
+        background-color: blueviolet;
+        width: 100px;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+    }
