@@ -1,0 +1,40 @@
+div {
+    background-color: salmon;
+    font-size: 2rem;
+}
+
+
+/* @media (max-width: 720px) {
+    div {
+        background-color: aqua;
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 480px) {
+    div {
+        background-color: blueviolet;
+        font-size: 1rem;
+    }
+    p {
+        color: burlywood;
+    }
+}
+
+@media(min-width: 360px) and (max-width: 390px) {
+    div {
+        font-size: 3rem;
+    }
+} */
+
+@media(min-width :320px) and (max-width: 480px) {
+    div {
+        background-color: red;
+    }
+}
+
+@media(min-width :481px) and (max-width: 768px) {
+    div {
+        background-color: blue;
+    }
+}
