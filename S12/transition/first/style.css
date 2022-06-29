@@ -1,0 +1,26 @@
+div {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.first {
+    background-color: burlywood;
+}
+
+.second {
+    background-color: burlywood;
+    /* transition-property: background, border-radius;
+    transition-duration: 3s, 3s;
+    transition-delay: .5s; */
+    transition: background 3s .5s, border-radius 3s;
+}
+
+.second:hover {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.first:hover {
+    background-color: red;
+}

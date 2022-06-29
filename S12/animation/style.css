@@ -1,0 +1,23 @@
+div {
+    width: 200px;
+    height: 30px;
+    background-color: sienna;
+    animation-name: Arshia;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Arshia {
+    50% {
+        width: 700px;
+        background-color: salmon;
+    }
+    75% {
+        width: 50px;
+        border-radius: 50%;
+    }
+    100% {
+        width: 900px;
+        border-radius: 0;
+    }
+}
